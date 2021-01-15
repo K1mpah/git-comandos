@@ -14,3 +14,4 @@
 12.git brach -d rama-heroes //Eliminar la rama diferente a la master
 13.git push
 14.git commit -am "" // Ambos comandos git add . y git commit -m
+15-git pull

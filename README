@@ -1,0 +1,16 @@
+# Comandos utilos de git
+
+1.git init
+2.git add .
+3.git commit -m "Primer commit"
+4.git reset . //Revertir cambios
+5.git checkout --. //volver atras (Crtl + Z)
+6.git log // listado commits
+7.git log --oneline 
+8.git commit --amend //Editar mensaje del commit <---ESC:wq! --> salir
+9.git checkout -b rama-heroes //Creamos otra rama para trabajar diferente a la master
+10.git checkout master // cambios a x rama en este caso a la master
+11.git merge rama-heroes // Fusionar la rama secundaria  a la principal <--ESC :wq! --> sali
+12.git brach -d rama-heroes //Eliminar la rama diferente a la master
+13.git push
+14.git commit -am "" // Ambos comandos git add . y git commit -m
